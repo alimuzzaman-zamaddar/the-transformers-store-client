@@ -4,8 +4,8 @@ import useTitle from "../../Hooks/useTitle";
 const Blogs = () => {
   useTitle('Blogs')
   return (
-    <div className="my-14">
-         <h1 className="text-6xl font-bold text-center py-5">Question answer section is here ??</h1>
+    <div className="mb-14">
+         <h1 className="text-5xl font-bold text-center py-5 mb-8">Question answer section is here ??</h1>
         <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
           <div className="collapse-title text-xl font-medium">
            1. What is an access token and refresh token? How do they work and where should we store them on the client-side?
@@ -28,18 +28,22 @@ const Blogs = () => {
         </div>
         <div tabIndex={2} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
           <div className="collapse-title text-xl font-medium">
-            Focus me to see content
+            3.  What is express js? What is Nest JS?
           </div>
           <div className="collapse-content">
-            <p>tabIndex={2} attribute is necessary to make the div focusable</p>
+            <p>express is a minimalist and flexible framework that is easy to use and has a large community of developers next js on the other hand, is a newer framework that provides additional features such as dependency injection, a modular architecture, and an intuitive cli
+            in conclusion  both express and nest js are popular Node js frameworks that provide different features and benefits. express is a minimalist and flexible framework that is easy to use and has a large community of developers. next js on the other hand is a newer framework that provides additional features such as dependency injection, a modular architecture, and an intuitive cli. ultimately, the choice between these frameworks will depend on your specific needs and requirements.
+            </p>
           </div>
         </div>
         <div tabIndex={3} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
           <div className="collapse-title text-xl font-medium">
-            Focus me to see content
+             4. What is MongoDB aggregate and how does it work?
           </div>
           <div className="collapse-content">
-            <p>tabIndex={3} attribute is necessary to make the div focusable</p>
+            <p>What is aggrament in mongodb aggregation is a way of processing a large number of documents in a collection by means of passing them through different stages. The stages make up what is known as a pipeline. The stages in a pipeline can filter sort group reshape and modify documents that pass through the pipeline.
+            One of the most common use cases of aggregation is to calculate aggregate values for groups of documents. This is similar to the basic aggregation available in sql with the group by clause and count sum and avg functions. mongodb aggregation goes further though and can also perform relational like joins  reshape documents  create new and update existing collections, and so on. 
+            </p>
           </div>
         </div>
     </div>
