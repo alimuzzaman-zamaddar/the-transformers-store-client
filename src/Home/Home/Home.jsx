@@ -11,8 +11,6 @@ const Home = () => {
             <Banner></Banner>
             <Category></Category>
             <Gallery></Gallery>
-            
-            
         </div>
     );
 };

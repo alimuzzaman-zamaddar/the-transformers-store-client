@@ -13,24 +13,24 @@ const Footer = () => {
         </div>
         <div>
           <span className="footer-title">Company</span>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a className="link link-hover">Sell</a>
+          <a className="link link-hover">Services</a>
+          <a className="link link-hover">build</a>
+          <a className="link link-hover">Comenecation</a>
         </div>
         <div>
-          <span className="footer-title">Legal</span>
+          <span className="footer-title">POLICY</span>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <a className="link link-hover">Delivery policy</a>
         </div>
       </footer>
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <div className="items-center grid-flow-col">
         <img className='w-12 h-12 mr-5' src="https://www.nicepng.com/png/detail/9-92708_transformers-logo.png" alt="" />
           <p>
-            ACME Industries Ltd. <br />
-            Providing reliable tech since 1992
+            THE TRANSFORMERS LTD. <br />
+            Providing reliable products since 1992
           </p>
         </div>
         <div className="md:place-self-center md:justify-self-end">

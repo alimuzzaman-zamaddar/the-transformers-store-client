@@ -38,6 +38,7 @@ const ShowAllToys = () => {
             <tr>
               <th>Seller Name</th>
               <th>Toy Name</th>
+              <th>Toy Price</th>
               <th>Sub Category</th>
               <th>Available Quantity </th>
               <th>View Details</th>
@@ -48,6 +49,7 @@ const ShowAllToys = () => {
               <tr key={toy._id}>
                 <td>{toy?.sellerName}</td>
                 <td>{toy?.toyName}</td>
+                <td>{toy?.price}</td>
                 <td>{toy?.subCategory}</td>
                 <td>{toy?.quantity}</td>
                 <td>
