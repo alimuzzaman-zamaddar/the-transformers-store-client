@@ -1,0 +1,12 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding: 50px;
+    gap: 50px;
+}
+.contact-section-title{
+    background-image: url('https://wallpaperaccess.com/full/781020.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
