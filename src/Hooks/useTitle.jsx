@@ -4,7 +4,7 @@ const useTitle = (title) => {
 
     useEffect(() => {
 
-        document.title = `TStore-${title}`
+        document.title = `TStore - ${title}`
 
 
     },[title])
