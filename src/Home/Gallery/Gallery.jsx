@@ -15,6 +15,7 @@ const Gallery = () => {
         <h1 className="text-6xl font-extrabold text-center py-7">
           Toys Gallery Section
         </h1>
+        <p className="text-center text-lg font-semibold" >Here you can find the unique type of toys that is very instaresting to chose.</p>
       </div>
       <div className="marquee-container mb-7" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
         <Marquee>
