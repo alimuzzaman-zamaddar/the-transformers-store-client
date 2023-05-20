@@ -5,6 +5,9 @@
     
 }
 
+.toy-card img{
+    height: 300px;
+}
 @media only screen and (max-width: 576px){
     .card-container {
         display: grid;
