@@ -7,7 +7,7 @@ const ErrorPage = () => {
         <div>
         <section className="">
           <div className="error-info">
-            <img src="https://thumbs.dreamstime.com/z/road-sign-error-word-blue-sky-road-sign-error-word-blue-sky-high-quality-d-rendering-153321877.jpg" alt="" />
+            <img src="https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-5529.jpg?w=2000" alt="" />
 
             <div className="">
               <h2 className="text-error text-6xl mb-5">
