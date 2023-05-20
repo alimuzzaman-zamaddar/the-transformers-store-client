@@ -1,4 +1,5 @@
 import React from "react";
+import Rating from "react-rating";
 import { useLoaderData } from "react-router-dom";
 
 const SingleCategory = () => {
