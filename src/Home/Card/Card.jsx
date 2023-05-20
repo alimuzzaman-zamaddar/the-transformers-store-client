@@ -42,7 +42,7 @@ const Card = () => {
         </div>
         <div className="toy-card" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" >
           <img
-            src="https://static.wikia.nocookie.net/transformers/images/9/98/Movie-brawl-1.jpg/revision/latest?cb=20090805145202"
+            src="https://www.dshop.com.au/assets/full/J8012.jpg?20210318034424"
             alt=""
           />
         </div>
