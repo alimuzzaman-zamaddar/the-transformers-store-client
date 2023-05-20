@@ -6,7 +6,7 @@ import useTitle from '../../Hooks/useTitle';
 const Update = () => {
     useTitle('UpdateToy')
     const needToUp = useLoaderData() 
-    const {price,quantity,details} = needToUp;
+    const {_id,price,quantity,details} = needToUp;
     const handleUpdate = (event) =>{
         event.preventDefault();
         const form = event.target;
@@ -16,7 +16,7 @@ const Update = () => {
 
         const updateToy = {price,quantity,details}
 
-        fetch(`https://the-toy-store-server.vercel.app/allToys/${needToUp._id}`,{
+        fetch(`https://the-toy-store-server.vercel.app/allToys/${_id}`,{
             method:'PATCH',
             headers:{
                 "content-type": "application/json"
