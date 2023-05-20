@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="header-title">
             <img
               className="w-12 h-12 "
-              src="https://www.nicepng.com/png/detail/9-92708_transformers-logo.png"
+              src="https://cdn.freebiesupply.com/logos/large/2x/autobot-from-transformers-logo-png-transparent.png"
               alt=""
             />
             <h3 className="text-3xl"> Transformers Store </h3>

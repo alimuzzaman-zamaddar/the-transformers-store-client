@@ -16,7 +16,7 @@ const Update = () => {
 
         const updateToy = {price,quantity,details}
 
-        fetch(`http://localhost:5000/allToys/${needToUp._id}`,{
+        fetch(`https://the-toy-store-server.vercel.app/allToys/${needToUp._id}`,{
             method:'PATCH',
             headers:{
                 "content-type": "application/json"

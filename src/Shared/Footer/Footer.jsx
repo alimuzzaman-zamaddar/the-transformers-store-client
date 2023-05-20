@@ -27,7 +27,7 @@ const Footer = () => {
       </footer>
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <div className="items-center grid-flow-col">
-        <img className='w-12 h-12 mr-5' src="https://www.nicepng.com/png/detail/9-92708_transformers-logo.png" alt="" />
+        <img className='w-12 h-12 mr-5' src="https://cdn.freebiesupply.com/logos/large/2x/autobot-from-transformers-logo-png-transparent.png" alt="" />
           <p>
             THE TRANSFORMERS LTD. <br />
             Providing reliable products since 1992

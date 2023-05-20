@@ -8,13 +8,13 @@ const ShowAllToys = () => {
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/allToys")
+    fetch("https://the-toy-store-server.vercel.app/allToys")
       .then((res) => res.json())
       .then((data) => setAllToys(data));
   }, []);
 
   const handleSearch = () => {
-    fetch(`http://localhost:5000/getAllToyByText/${searchText}`)
+    fetch(`https://the-toy-store-server.vercel.app/getAllToyByText/${searchText}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
