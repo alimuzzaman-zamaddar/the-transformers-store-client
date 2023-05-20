@@ -1,5 +1,7 @@
 import React from "react";
 import Rating from "react-rating";
+import '@smastrom/react-rating/style.css'
+import { Rating } from '@smastrom/react-rating'
 import { useLoaderData } from "react-router-dom";
 
 const SingleCategory = () => {
