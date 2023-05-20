@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./CategoryCard.css";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 const CategoryCard = ({ cars }) => {
+  const {user} = useContext(AuthContext)
+  const notify = () => toast("You need to login fast to view details");
   const { _id, photo, toyName, ratings, price } = cars;
   return (
     <div className="container-card shadow-lg p-7">
@@ -22,7 +25,8 @@ const CategoryCard = ({ cars }) => {
           </div>
         </div>
         <div className="button">
-          <button className="btn btn-primary"> View Details </button>
+        { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link><ToastContainer />  </>      
+           }
         </div>
       </div>
     </div>

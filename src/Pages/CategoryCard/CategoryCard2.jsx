@@ -7,8 +7,8 @@ import { AuthContext } from "../../Providers/AuthProvider";
 
 const CategoryCard = ({ fighter }) => {
   const {user} = useContext(AuthContext)
-  const { _id, photo, toyName, ratings, price } = fighter;
   const notify = () => toast("You need to login fast to view details");
+  const { _id, photo, toyName, ratings, price } = fighter;
 
   return (
     <div className="container-card shadow-lg p-7">
