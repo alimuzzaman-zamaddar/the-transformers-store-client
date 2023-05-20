@@ -20,7 +20,7 @@
     margin-right: 20px;
 }
 
-/* @media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
    .header-navigation-bar{
     display: flex;
     flex-direction: column;
@@ -47,5 +47,14 @@
     font-size: 24px;
     font-weight: 600;
    }
+   .header-title{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .header-title img{
+    margin-top: 25px;
+    margin-left: 83px;
 
-  } */
+   }
+
+  }
