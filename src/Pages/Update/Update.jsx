@@ -67,6 +67,7 @@ const Update = () => {
                   type="text"
                   placeholder="Available quantity"
                   name='quantity'
+                  defaultValue={quantity}
                   className="input input-bordered"
                 />
               </div>
@@ -78,6 +79,7 @@ const Update = () => {
                   type="text"
                   placeholder="Detail description"
                   name='details'
+                  defaultValue={details}
                   className="input input-bordered"
                 />
               </div>
