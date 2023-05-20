@@ -30,11 +30,9 @@ const CategoryCard = ({ heavy }) => {
         </div>
         <div className="button">
           
-           { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link> <ToastContainer /> </>      
+           { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link><ToastContainer />  </>      
            }
 
-        
-        
         </div>
       </div>
     </div>
