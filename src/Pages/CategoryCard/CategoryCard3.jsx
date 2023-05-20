@@ -3,6 +3,7 @@ import "./CategoryCard.css";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { AuthContext } from "../../Providers/AuthProvider";
+import { Link } from "react-router-dom";
 
 const CategoryCard = ({ cars }) => {
   const {user} = useContext(AuthContext)
