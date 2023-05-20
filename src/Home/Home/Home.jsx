@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import useTitle from '../../Hooks/useTitle';
 import Gallery from '../Gallery/Gallery';
 import Contact from './Contact/contact';
+import Card from '../Card/Card';
 
 const Home = () => {
     useTitle('Home')
@@ -13,6 +14,7 @@ const Home = () => {
             <Category></Category>
             <Gallery></Gallery>
             <Contact></Contact>
+            <Card></Card>
         </div>
     );
 };

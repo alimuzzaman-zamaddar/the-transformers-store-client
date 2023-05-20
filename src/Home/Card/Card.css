@@ -4,3 +4,10 @@
     gap: 30px;
     
 }
+
+@media only screen and (max-width: 576px){
+    .toy-card{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
