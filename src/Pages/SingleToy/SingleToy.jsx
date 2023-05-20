@@ -9,7 +9,7 @@ import useTitle from "../../Hooks/useTitle";
 const SingleToy = () => {
   useTitle('singleToy')
   const singleToy = useLoaderData();
-  const { photo, toyName, sellerName, email, ratings, quantity, details } =
+  const { photo,price, toyName, sellerName, email, ratings, quantity, details } =
     singleToy;
   return (
     <div className=" single-toy-container bg-slate-100">
@@ -24,6 +24,9 @@ const SingleToy = () => {
         </h3>
         <h3 className="text-4xl mb-5">
           <strong>Seller email :</strong> {email}
+        </h3>
+        <h3 className="text-4xl mb-5">
+          <strong>Price :</strong> {price}
         </h3>
         <h3 className="text-4xl mb-5">
           <strong>Avilable Quantity :</strong> {quantity}
