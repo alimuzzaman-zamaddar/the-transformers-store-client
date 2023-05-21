@@ -13,4 +13,7 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    .toy-card img{
+        width: 100%;
+    }
 }
