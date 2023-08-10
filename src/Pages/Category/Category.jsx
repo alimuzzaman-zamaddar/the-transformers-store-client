@@ -22,7 +22,7 @@ const Category = () => {
     console.log(superCars)
   return (
     <div>
-      <div className="div  py-7 text-center">
+      <div className="div  py-7 text-center text-[#B1D4E0]">
         <h1 className="text-7xl font-bold">Shop By Category</h1>
           <p className="py-5">Here you can find worlds best category</p>
       </div>

@@ -11,7 +11,7 @@ const Gallery = () => {
   }, []);
   return (
     <div>
-      <div className="gallery-title">
+      <div className="gallery-title text-[#2E8BC0]">
         <h1 className="text-6xl font-extrabold text-center py-7">
           Toys Gallery Section
         </h1>

@@ -14,7 +14,7 @@ const Banner = () => {
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
           <img
-            src="https://i.ytimg.com/vi/wsk0mPpKs4c/maxresdefault.jpg"
+            src="https://i.ibb.co/wNBMryb/My-project-1.png"
             className="w-full h-3/4"
           />
         </div>
