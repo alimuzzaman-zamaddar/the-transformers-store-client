@@ -4,59 +4,43 @@ import{ useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { Carousel } from 'flowbite-react';
+
 const Banner = () => {
   useEffect(() => {
     AOS.init();
     
   }, []);
   return (
-    <div className="banner py-11" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000"   >
-      <div className="carousel w-full">
-        <div id="item1" className="carousel-item w-full">
+    <>
+      <div className="slider mb-14">
+        <Carousel
+          leftControl="left"
+          rightControl="right"
+          className="h-[calc(100dvh-12dvh)] md:h-[calc(100dvh-12dvh)]"
+        >
           <img
-            src="https://i.ibb.co/wNBMryb/My-project-1.png"
-            className="w-full h-3/4"
+            alt="..."
+            src="https://i.ytimg.com/vi/ZtuFgnxQMrA/maxresdefault.jpg"
           />
-        </div>
-        <div id="item2" className="carousel-item w-full">
           <img
-            src="https://m.media-amazon.com/images/I/71uRENNFM4L._AC_SX569_.jpg"
-            className="w-full"
+            alt="..."
+            src="https://variety.com/wp-content/uploads/2023/06/t6.jpg?w=1000"
           />
-        </div>
-        <div id="item3" className="carousel-item w-full">
           <img
-            src="https://m.media-amazon.com/images/I/61GPkUebfvL._AC_SL1000_.jpg"
-            className="w-full"
+            alt="..."
+            src="https://www.looper.com/img/gallery/transformers-rise-of-the-beasts-trailer-roars-into-action/l-intro-1669905191.jpg"
           />
-        </div>
-        <div id="item4" className="carousel-item w-full">
-          <img
-            src="https://m.media-amazon.com/images/I/71HA6YTQkSS._AC_SL1500_.jpg"
-            className="w-full"
-          />
-        </div>
-      </div>
-      <div className="flex justify-center w-full py-2 gap-2">
-        <a href="#item1" className="btn btn-xs">
-          1
-        </a>
-        <a href="#item2" className="btn btn-xs">
-          2
-        </a>
-        <a href="#item3" className="btn btn-xs">
-          3
-        </a>
-        <a href="#item4" className="btn btn-xs">
-          4
-        </a>
-      </div>
+        </Carousel>
 
-      <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"  className="information">
-        <h1>MOST POPULAR TRANSFORMER  IS HER !!!</h1>
-        <p>he primary concept of Generation One is that the heroic Optimus Prime, the villainous Megatron, and their finest soldiers crash land on pre-historic Earth in the Ark and the Nemesis before awakening in 1985, Cybertron hurtling through the Neutral zone as an effect of the war. The Marvel comic was originally part of the main Marvel Universe, with appearances from Spider-Man and Nick Fury, plus some cameos,[9] as well as a visit to the Savage Land</p>
+        <div className="information">
+          <h1>MOST POPULAR TRANSFORMER  IS HER !!!</h1>
+          <p>
+          he primary concept of Generation One is that the heroic Optimus Prime, the villainous Megatron, and their finest soldiers crash land on pre-historic Earth in the Ark and the Nemesis before awakening in 1985, Cybertron hurtling through the Neutral zone as an effect of the war. The Marvel comic was originally part of the main Marvel Universe, with appearances from Spider-Man and Nick Fury, plus some cameos,[9] as well as a visit to the Savage Land
+          </p>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

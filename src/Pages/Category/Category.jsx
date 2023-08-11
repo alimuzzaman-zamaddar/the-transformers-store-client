@@ -27,7 +27,7 @@ const Category = () => {
           <p className="py-5">Here you can find worlds best category</p>
       </div>
       <Tabs className='my-11'>
-        <TabList className='text-center text-3xl font-semibold'>
+        <TabList className='text-center text-3xl font-semibold text-[#B1D4E0]'>
           <Tab >Heavy truck</Tab>
           <Tab>Fighter Planes</Tab>
           <Tab>Super Cars</Tab>

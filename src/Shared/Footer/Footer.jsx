@@ -3,13 +3,33 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-base-200 text-base-content">
+      <footer className="footer p-10 bg-[#0C2D55] text-[#B1D4E0]">
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
           <a className="link link-hover">Advertisement</a>
+        </div>
+        <div>
+          <span className="footer-title text-[#B1D4E0] ">Newsletter</span>
+          <div className="form-control w-80">
+            <label className="label">
+              <span className="label-text text-[#B1D4E0]">
+                Enter your email address
+              </span>
+            </label>
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                className="input input-bordered w-full pr-16"
+              />
+              <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
         <div>
           <span className="footer-title">Company</span>
@@ -25,9 +45,13 @@ const Footer = () => {
           <a className="link link-hover">Delivery policy</a>
         </div>
       </footer>
-      <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+      <footer className="footer px-10 py-4 border-t-2 border-[#B1D4E0] bg-[#0C2D55] text-[#B1D4E0]">
         <div className="items-center grid-flow-col">
-        <img className='w-12 h-12 mr-5' src="https://cdn.freebiesupply.com/logos/large/2x/autobot-from-transformers-logo-png-transparent.png" alt="" />
+          <img
+            className="w-12 h-12 mr-5"
+            src="https://cdn.freebiesupply.com/logos/large/2x/autobot-from-transformers-logo-png-transparent.png"
+            alt=""
+          />
           <p>
             THE TRANSFORMERS LTD. <br />
             Providing reliable products since 1992

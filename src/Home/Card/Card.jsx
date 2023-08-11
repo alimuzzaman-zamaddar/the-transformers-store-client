@@ -12,17 +12,17 @@ const Card = () => {
         
       }, []);
   return (
-    <div className="group-title">
+    <div className="group-title text-[#B1D4E0]">
         <h1 className="font-extrabold text-5xl text-center py-11">Most Popular and Favorite Toys Section</h1>
         <p className="text-center font-semibold text-xl">find your favorite as many you want</p>
-      <div className="py-12  card-container ">
+      <div className="my-12  card-container bg-[#239ec7] ">
         <div className="toy-card" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000"  >
           <img
             src="https://www.joblo.com/wp-content/uploads/2023/04/Fs0ObfgX0AMLSTL-1024x777.jpeg"
             alt=""
           />
         </div>
-        <div className="toy-card" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" >
+        <div className="toy-card " data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" >
           <img
             src="https://i.ytimg.com/vi/ET9SHYzMz_4/maxresdefault.jpg"
             alt=""

@@ -1,31 +1,38 @@
-.banner img{
-    height: 550px;
-}
+
 .banner{
 position: relative;
 }
 .information{
     position: absolute;
     top: 30%;
-    width: 70%;
-    left: 14%;
+    width: 40%;
+    left: 12%;
 }
 .information h1{
     font-size: 41px;
     margin-bottom: 16px;
     font-weight: 800;
-    color: #FFD700;
+    color: #B1D4E0;
     padding: 10px;
-    background: #191f1f6e;
 }
 .information p{
     color: #ffffff;
-
-    background: #191f1f6e;
     padding: 10px;
 
 }
     
+@media only screen and (max-width: 576px){
+    .information h1{
+        font-size: 30px;
+        padding: 0;
+    }
+    .information{
+        width: 95%;
+        margin: 0 auto;
+        top: 100%;
+        left: 2%;
+    }
+}
 
 
 

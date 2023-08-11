@@ -1,17 +1,18 @@
 .card-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 30px;
+    gap: 10px;
     
 }
-
 .toy-card img{
     height: 300px;
+    width: 100%;
 }
 @media only screen and (max-width: 576px){
     .card-container {
         display: grid;
         grid-template-columns: 1fr;
+        margin: 35px;
     }
     .toy-card img{
         width: 100%;

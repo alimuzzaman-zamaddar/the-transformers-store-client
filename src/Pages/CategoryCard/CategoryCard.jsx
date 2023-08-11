@@ -13,11 +13,14 @@ const CategoryCard = ({ heavy }) => {
   const notify = () => toast("You need to login fast to view details");
 
   return (
-    <div className="container-card shadow-lg p-7">
-      <div className="img">
+    <div className="mt-8">
+    <div className="container-card text-[#B1D4E0] ">
+      <div className="img" data-aos="fade-up"
+     data-aos-duration="2000">
         <img src={photo} alt="" />
       </div>
-      <div className="info mt-8 space-y-4 flex align-middle justify-between">
+      <div className="info mt-8 p-6 border-l-2 border-r-2 border-b-2 flex items-center justify-between" data-aos="fade-up"
+     data-aos-duration="2000">
         <div className="div">
           <p className="text-3xl font-bold">Name : {toyName}</p>
           <p className="text-3xl">Price : {price}</p>
@@ -30,11 +33,12 @@ const CategoryCard = ({ heavy }) => {
         </div>
         <div className="button">
           
-           { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> : <> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link><ToastContainer />  </>      
+           { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link><ToastContainer />  </>      
            }
 
         </div>
       </div>
+    </div>
     </div>
   );
 };

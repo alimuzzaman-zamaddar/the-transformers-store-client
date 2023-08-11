@@ -47,8 +47,8 @@ const Navbar = () => {
 
       <div className="header-title">
         <img
-          className="w-12 h-12 "
-          src="https://cdn.freebiesupply.com/logos/large/2x/autobot-from-transformers-logo-png-transparent.png"
+          className="w-12 h-12 bg-[#2E8BC0] rounded-xl"
+          src="https://i.ibb.co/9nrJYmg/autobot-from-transformers-logo-png-transparent-removebg-preview.png"
           alt=""
         />
         <h3 className="text-3xl"> Transformers Store </h3>
@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
         ) : (
           <div>
-            <button className="btn btn-outline">
+            <button className="btn btn-primary">
               <Link className="" to="/login">
                 Login
               </Link>
