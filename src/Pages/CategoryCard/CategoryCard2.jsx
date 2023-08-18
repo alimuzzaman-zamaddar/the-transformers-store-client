@@ -4,6 +4,7 @@ import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
+import { ToastContainer } from "react-toastify";
 
 const CategoryCard = ({ fighter }) => {
   const {user} = useContext(AuthContext)

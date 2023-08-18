@@ -17,7 +17,7 @@ const Banner = () => {
         <Carousel
           leftControl="left"
           rightControl="right"
-          className="h-[calc(100dvh-12dvh)] md:h-[calc(100dvh-12dvh)]"
+          className="h-[calc(100dvh-0dvh)] md:h-[calc(100dvh-12dvh)]"
         >
           <img
             alt="..."
@@ -38,6 +38,10 @@ const Banner = () => {
           <p>
           he primary concept of Generation One is that the heroic Optimus Prime, the villainous Megatron, and their finest soldiers crash land on pre-historic Earth in the Ark and the Nemesis before awakening in 1985, Cybertron hurtling through the Neutral zone as an effect of the war. The Marvel comic was originally part of the main Marvel Universe, with appearances from Spider-Man and Nick Fury, plus some cameos,[9] as well as a visit to the Savage Land
           </p>
+         <div className="flex mt-8 ml-2">
+         <button className="btn btn-primary rounded-none mr-5 text-white font-extrabold text-xl hover:border-4 border-4 hover:border-white px-8">BUY NOW</button> 
+          <button className="btn btn-primary rounded-none text-white font-extrabold text-xl hover:border-4 border-4 hover:border-white px-6">CONTACT US</button>
+         </div>
         </div>
       </div>
     </>

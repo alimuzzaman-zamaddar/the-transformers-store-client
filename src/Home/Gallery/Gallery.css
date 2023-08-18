@@ -3,3 +3,9 @@
     height: 500px;
     width: 350px;
 }
+@media only screen and (max-width: 576px){
+    .marquee-container{
+        overflow: hidden;
+        padding: 30px;
+    }
+}

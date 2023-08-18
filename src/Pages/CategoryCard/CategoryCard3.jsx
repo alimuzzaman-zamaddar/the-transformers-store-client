@@ -4,6 +4,7 @@ import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { AuthContext } from "../../Providers/AuthProvider";
 import { Link } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
 const CategoryCard = ({ cars }) => {
   const {user} = useContext(AuthContext)
@@ -26,7 +27,7 @@ const CategoryCard = ({ cars }) => {
           </div>
         </div>
         <div className="button">
-        { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link><ToastContainer />  </>      
+        { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link><ToastContainer/>  </>      
            }
         </div>
       </div>

@@ -23,14 +23,18 @@ position: relative;
     
 @media only screen and (max-width: 576px){
     .information h1{
-        font-size: 30px;
-        padding: 0;
+        font-size: 20px;
+        padding: 10px
     }
     .information{
         width: 95%;
         margin: 0 auto;
-        top: 100%;
+        top: 104%;
         left: 2%;
+       
+    }
+    .information p{
+        margin-top: -30px;
     }
 }
 
