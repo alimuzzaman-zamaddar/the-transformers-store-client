@@ -33,7 +33,7 @@ const Banner = () => {
           />
         </Carousel>
 
-        <div className="information">
+        <div className="information bg-black bg-opacity-20">
           <h1>MOST POPULAR TRANSFORMER  IS HER !!!</h1>
           <p>
           he primary concept of Generation One is that the heroic Optimus Prime, the villainous Megatron, and their finest soldiers crash land on pre-historic Earth in the Ark and the Nemesis before awakening in 1985, Cybertron hurtling through the Neutral zone as an effect of the war. The Marvel comic was originally part of the main Marvel Universe, with appearances from Spider-Man and Nick Fury, plus some cameos,[9] as well as a visit to the Savage Land

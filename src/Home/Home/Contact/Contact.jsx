@@ -4,43 +4,80 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-section-title">
-      <div className=" text-center py-11 text-white">
-        <h1 className="font-semibold text-5xl mb-5">CONTACT US HERE !!</h1>
-        <p>
+      <div className=" md:text-center p-5 md:py-11 text-white">
+        <h1
+          className="font-semibold text-5xl mb-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          CONTACT US HERE !!
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="2000">
           here yoy can find us and visit us offline <br />
-          anytime any where we located.{" "}
+          anytime any where we located.
         </p>
       </div>
       <div className="contact-container">
         <div className="information-contact">
           <div className="div">
-            <div className="div text-center space-y-3">
-                <h1 className="text-3xl font-semibold">Visit our shop at here</h1>
-              <p>Mr John Smith</p>
-              <p>132, My Street</p>
-              <p>Kingston</p>
-              <p>New York 12401</p>
+            <div className="md:text-center md:space-y-3">
+              <h1
+                className="md:text-3xl font-semibold"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                Visit our shop at here
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                Mr John Smith
+              </p>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                132, My Street
+              </p>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                Kingston
+              </p>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                New York 12401
+              </p>
             </div>
           </div>
           <div className="form">
-            <h1 className="text-center text-2xl py-4">send ou your contact number</h1>
-            <div className="card-body">
-              <div className="form-control">
+            <h1
+              className="md:text-center md:text-2xl md:py-4"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              send ou your contact number
+            </h1>
+            <div className="md:card-body py-5 ">
+              <div className="md:form-control">
                 <input
                   type="text"
                   placeholder="Name"
                   className="input input-bordered"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 />
               </div>
-              <div className="form-control">
+              <div className="md:form-control">
                 <input
                   type="text"
                   placeholder="Email"
                   className="input input-bordered"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 />
               </div>
-              <div className="form-control mt-6">
-                <button className="btn btn-primary"> Send </button>
+              <div className="md:form-control mt-6">
+                <button
+                  className="btn btn-primary px-7"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  {" "}
+                  Send{" "}
+                </button>
               </div>
             </div>
           </div>
@@ -54,6 +91,8 @@ const Contact = () => {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            data-aos="fade-up"
+            data-aos-duration="2000"
           ></iframe>
         </div>
       </div>

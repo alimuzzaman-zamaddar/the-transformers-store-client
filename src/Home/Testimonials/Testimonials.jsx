@@ -2,7 +2,7 @@ import React from "react";
 import { FaAngleDown, FaQuoteLeft } from "react-icons/fa";
 const Testimonials = () => {
   return (
-    <div className="pb-14 mt-10 border-b-2 border-[#59b5d3]">
+    <div className="pb-14 mt-10 p-6 md:p-0 border-b-2 md:pb-10 border-[#59b5d3]">
       <div className="py-7">
         <div className="">
           <p
@@ -13,7 +13,7 @@ const Testimonials = () => {
             WHAT PEOPLES SAYS
           </p>
           <h1
-            className="text-5xl text-[#B1D4E0] mb-5"
+            className=" md:text-5xl text-2xl  text-[#B1D4E0] mb-5"
             data-aos="fade-up"
             data-aos-duration="2000"
           >
@@ -21,7 +21,7 @@ const Testimonials = () => {
           </h1>
         </div>
         <div
-          className="flex justify-between text-[#B1D4E0] mb-3"
+          className="md:flex justify-between text-[#B1D4E0] overflow-hidden mb-3"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
@@ -51,7 +51,11 @@ const Testimonials = () => {
                 <FaQuoteLeft className="text-5xl opacity-20"></FaQuoteLeft>
               </div>
             </div>
-            <div className=" " data-aos="fade-up" data-aos-duration="2000">
+            <div
+              className="  overflow-hidden"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
                 aliquam aliquid illum doloribus, quibusdam recusandae placeat.
@@ -101,7 +105,11 @@ const Testimonials = () => {
                 <FaQuoteLeft className="text-5xl opacity-20"></FaQuoteLeft>
               </div>
             </div>
-            <div className=" " data-aos="fade-up" data-aos-duration="2000">
+            <div
+              className="overflow-hidden "
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
                 aliquam aliquid illum doloribus, quibusdam recusandae placeat.
