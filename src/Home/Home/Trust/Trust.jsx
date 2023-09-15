@@ -31,7 +31,7 @@ const Trust = () => {
             Mechanicals, Mechanic Workshops, Auto Painting, Auto Centres.
           </p>
           <button
-            className="btn btn-primary"
+            className="btn px-[25px] rounded-md text-white border-2 border-white hover:bg-slate-700 duration-700"
             data-aos="fade-up"
             data-aos-duration="2000"
           >
@@ -40,7 +40,7 @@ const Trust = () => {
         </div>
       </div>
 
-      <div className=" grid grid-cols-2 md:grid-cols-6">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3">
         <div className=" p-10 border-2 border-[#113440] bg-slate-400" data-aos="flip-left" data-aos-duration="1000">
           <img
             className="text-[#59b5d3]"

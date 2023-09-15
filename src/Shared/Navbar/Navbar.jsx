@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
+import { FaBusAlt, FaCarAlt, FaFighterJet, FaTableTennis, FaTractor } from "react-icons/fa";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -11,9 +12,53 @@ const Navbar = () => {
       .catch((error) => console.log(error.message));
   };
   return (
-    <div className="header-navigation-bar bg-transparent text-[#B1D4E0]">
-      <div className="navigation-lings">
-        <NavLink
+    <div className="  ">
+      <div className="header-navigation-bar  text-white">
+        <div className="header-title">
+          <img
+            className="w-10 h-10"
+            src="https://i.ibb.co/9nrJYmg/autobot-from-transformers-logo-png-transparent-removebg-preview.png"
+            alt=""
+          />
+          <h3 className="text-2xl"> Transformers Store </h3>
+        </div>
+        <div className="flex header-icons">
+          <span><FaBusAlt></FaBusAlt></span>
+          <span><FaCarAlt></FaCarAlt></span>
+          <span><FaFighterJet></FaFighterJet></span>
+          <span><FaTractor></FaTractor></span>
+        </div>
+
+        <div>
+          {user ? (
+            <div className="navigation-login">
+              <img
+                className="h-12 w-12"
+                title={user?.displayName}
+                src={user?.photoURL}
+                alt=""
+              />
+              <button
+                className="btn btn-outline-secondary text-white border-2 border-white"
+                onClick={handleLogOut}
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <div>
+              <button className="btn px-[25px] rounded-md text-white border-2 border-white hover:bg-slate-700 duration-700">
+                <Link className="" to="/login">
+                  Login
+                </Link>
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="navigation-lings md:flex  justify-between items-center">
+       <div className="">
+       <NavLink
           to="/"
           className={({ isActive }) => (isActive ? "font-bold" : "")}
         >
@@ -43,42 +88,10 @@ const Navbar = () => {
         >
           My Toys
         </NavLink>
-      </div>
-
-      <div className="header-title">
-        <img
-          className="w-12 h-12 bg-[#2E8BC0] rounded-xl"
-          src="https://i.ibb.co/9nrJYmg/autobot-from-transformers-logo-png-transparent-removebg-preview.png"
-          alt=""
-        />
-        <h3 className="text-3xl"> Transformers Store </h3>
-      </div>
-
-      <div>
-        {user ? (
-          <div className="navigation-login">
-            <img
-              className="h-12 w-12"
-              title={user?.displayName}
-              src={user?.photoURL}
-              alt=""
-            />
-            <button
-              className="btn btn-outline-secondary text-white"
-              onClick={handleLogOut}
-            >
-              Logout
-            </button>
-          </div>
-        ) : (
-          <div>
-            <button className="btn btn-primary">
-              <Link className="" to="/login">
-                Login
-              </Link>
-            </button>
-          </div>
-        )}
+       </div>
+       <div className="">
+        <button className="btn px-[25px] rounded-md text-white border-2 border-white hover:bg-slate-700 duration-700">Explore More Toys</button>
+       </div>
       </div>
     </div>
   );

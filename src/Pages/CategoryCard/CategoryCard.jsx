@@ -22,7 +22,7 @@ const CategoryCard = ({ heavy }) => {
       <div className="info mt-8 p-6 border-l-2 border-r-2 border-b-2 flex items-center justify-between" data-aos="fade-up"
      data-aos-duration="2000">
         <div className="div">
-          <p className="text-3xl font-bold">Name : {toyName}</p>
+          <p className="text-3xl font-bold">Name : Heavy Truck</p>
           <p className="text-3xl">Price : {price}</p>
           <div className="flex mt-auto">
             <Rating style={{ maxWidth: 150 }} value={ratings} readOnly />
@@ -33,7 +33,7 @@ const CategoryCard = ({ heavy }) => {
         </div>
         <div className="button">
           
-           { user ? <Link to={`/category/${_id}`}> <button className="btn btn-primary"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn btn-primary" onClick={notify}>View Details</button> </Link><ToastContainer />  </>      
+           { user ? <Link to={`/category/${_id}`}> <button className="btn px-[25px] rounded-md text-white border-2 border-white hover:bg-slate-700 duration-700"> View Details </button></Link> :<> <Link  to='/login' > <button className="btn px-[25px] rounded-md text-white border-2 border-white hover:bg-slate-700 duration-700" onClick={notify}>View Details</button> </Link><ToastContainer />  </>      
            }
 
         </div>

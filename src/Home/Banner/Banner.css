@@ -4,38 +4,29 @@ position: relative;
 }
 .information{
     position: absolute;
-    top: 30%;
+    top: 70%;
     width: 40%;
-    left: 12%;
+    left: 16%;
+    display: none;
     
 }
 .information h1{
-    font-size: 41px;
-    margin-bottom: 16px;
+    font-size: 38px;
     font-weight: 800;
     color: #B1D4E0;
     padding: 10px;
 }
-.information p{
-    color: #ffffff;
-    padding: 10px;
-
-}
     
 @media only screen and (max-width: 576px){
     .information h1{
-        font-size: 20px;
-        padding: 10px
+      display: none;
     }
     .information{
-        width: 95%;
-        margin: 0 auto;
-        top: 104%;
-        left: 2%;
+        display: none;
        
     }
     .information p{
-        margin-top: -30px;
+       display: none;
     }
 }
 

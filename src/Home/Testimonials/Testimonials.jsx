@@ -28,10 +28,11 @@ const Testimonials = () => {
           <p>
             our Shop is a business theme. Perfectly suited for Auto Mechanic,
             Car Repair Shops, Car Wash, Garages, Automobile Mechanicals,
-            Mechanic Workshops, Auto Painting, Auto Centres.
+            Mechanic Workshops, Auto Painting, Auto Centres.Automobile Mechanicals,
+            Mechanic Workshops, Auto Painting.
           </p>
           <button
-            className="btn btn-primary"
+            className="btn px-[25px] rounded-md text-white border-2 border-white hover:bg-slate-700 duration-700"
             data-aos="fade-up"
             data-aos-duration="2000"
           >
@@ -57,9 +58,9 @@ const Testimonials = () => {
               data-aos-duration="2000"
             >
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-                aliquam aliquid illum doloribus, quibusdam recusandae placeat.
-                Perferendis aperiam alias itaque.
+                Shop is a business theme. Perfectly suited for Auto Mechanic,
+                Car Repair Shops, Car Wash, Garages, Automobile Mechanicals,
+                Mechanic Workshops, Auto Painting, Auto Centres.
               </p>
               <span>
                 <FaAngleDown className="absolute text-slate-400 text-8xl left-40  -bottom-11"></FaAngleDown>
@@ -111,9 +112,9 @@ const Testimonials = () => {
               data-aos-duration="2000"
             >
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-                aliquam aliquid illum doloribus, quibusdam recusandae placeat.
-                Perferendis aperiam alias itaque.
+                Perfectly suited for Auto Mechanic, Car Repair Shops, Car Wash,
+                Garages, Automobile Mechanicals, Mechanic Workshops, Auto
+                Painting, Shop is a business theme. Perfectly suited
               </p>
               <span>
                 <FaAngleDown className="absolute text-slate-400 text-8xl left-40  -bottom-11"></FaAngleDown>
@@ -161,9 +162,9 @@ const Testimonials = () => {
             </div>
             <div className=" " data-aos="fade-up" data-aos-duration="2000">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-                aliquam aliquid illum doloribus, quibusdam recusandae placeat.
-                Perferendis aperiam alias itaque.
+                Auto Painting, Auto Centres..our Shop is a business theme.
+                Perfectly suited for Auto Mechanic, Car Repair Shops, Car Wash,
+                Garages, Automobile Mechanicals, Mechanic Workshops.
               </p>
               <span>
                 <FaAngleDown className="absolute text-slate-400 text-8xl left-40  -bottom-11"></FaAngleDown>

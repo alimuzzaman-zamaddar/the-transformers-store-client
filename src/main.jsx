@@ -6,8 +6,8 @@ import router from "./Routes/Router/Router.jsx";
 import AuthProvider from "./Providers/AuthProvider";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div className="bg-[#0C2D48]">
-    <div className="max-w-7xl mx-auto">
+  <div className="bg-gradient-to-r from-black via-indigo-950 to-black">
+    <div className="max-w-[1450px] mx-auto overflow-x-hidden">
       <AuthProvider>
         <React.StrictMode>
           <RouterProvider router={router}></RouterProvider>

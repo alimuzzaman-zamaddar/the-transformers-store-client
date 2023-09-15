@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: rgb(17, 13, 78);
+    padding: 8px 0;
+    border-bottom: 2px solid white;
+}
+.header-icons span{
+    margin-right: 20px;
+    font-size: 35px;
 }
 .header-title{
     display: flex;
@@ -11,8 +15,15 @@
 .header-title img{
     margin-right: 20px;
 }
+.navigation-lings{
+    padding: 8px 0px;
+
+}
 .navigation-lings a{
     margin-right: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
 }
 .navigation-login{
     display: flex;
@@ -25,11 +36,15 @@
    .header-navigation-bar{
     display: flex;
     flex-direction: column;
+    border: none;
    }
    .navigation-lings {
     display: flex;
     flex-direction: column;
-   
+ 
+   }
+   .header-icons{
+    display: none;
    }
    .navigation-lings a{
     margin: 20px 0;
